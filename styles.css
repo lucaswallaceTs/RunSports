@@ -1,0 +1,278 @@
+.card-purple{background-color: #9754C5;}
+.card-green{background-color: #A6C554;}
+.card-gremio{background-color: #02a8ec;}
+.card-blue{background-color: #54A6C5;}
+.card-blue2{background-color: #31b3b5;}
+.card-red{background-color: #C56E54;}
+.card-orange{background-color: #f80;}
+.card-gray{background-color: #786d60d9;}
+.card-pink{background-color: #f17ea1;}
+.card-yellow{background-color: #e6bb00;}
+body{
+    width: 100%;
+    background-color: #FFF;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 754px;
+    max-width: 1440px;
+    background-image: url("./imagens/sport-urban.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    align-items: center;
+
+}
+.inicio .filtro-inicio{
+    width: 100%;
+    height: 754px;
+    max-width: 1440px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("./imagens/Rectangle 1248.png");
+}
+.inicio .wave{
+    margin-bottom: -2px;
+    width: 100%;
+    z-index: 10;
+}
+.inicio .title-runSports{
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    align-items: center;
+}
+.inicio .title-runSports img{
+    width: 300px;
+    height: 121px;
+}
+.inicio .title-runSports h1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48.17px;
+    font-family: "Anton", serif;
+    color: #FFF;
+    margin: 24px 0px;
+}
+.inicio .title-runSports button{
+    font-size: 18px;
+    font-weight: 600;
+    font-family:'Inter';
+    color: #FFF;
+    width: 220px;
+    height: 64px;
+    border-radius: 8px;
+    margin: 24px 0px;
+    border: 1px solid #FFB376;
+    background-color: #F28025;
+    margin: 0px;
+    cursor: pointer;
+}
+.calendario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+}
+.calendario .acompanhe-nosso{
+    margin-top: 52px;
+    width: 426px;
+    height: 72px;
+}
+.calendario h2{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 96.34px;
+    font-family: "Anton", serif;
+    text-transform: uppercase;
+    margin: 16px 0px;
+}
+.calendario p {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    text-align: left;
+    margin: 0px;
+}
+.calendario .container-events{
+    margin: 16px 0px 48px 0px;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.calendario .container-events .cards{
+    width: 300px;
+    height: 400px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 32px 32px 0px 0px;
+}
+.container-events .cards .wave-card img{
+    width: 100%;
+    margin-bottom: -5px;
+}
+.container-events .cards .info-event h2{
+    font-family: "Anton", serif;
+    font-size: 32px;
+    line-height: 36.34px;
+    color: #2A2D36;
+    margin: 16px 24px;
+    text-align: left;
+}
+.container-events .cards .info-event p{
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 36.34px;
+    color: #2A2D36;
+    margin: 0px 24px;
+    text-align: left;
+}
+.container-events .cards .image-logo{
+    background-color: #2A2D3620;
+    width: calc(120px - 32px);
+    height: calc(120px - 42px);
+    padding: 21px 16px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-events .cards .image-logo img{
+    width: 100%;
+}
+.container-events .cards .image-logo .img-zoom{
+    width: 120px;
+}
+.calendario .btn-ver-todos button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #000000;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 190px;
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 63px;
+}
+
+.calendario .btn-ver-todos button::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background-color: #F28025;
+    transition: width 0.5s ease-in-out;
+    z-index: -1;
+}
+
+.calendario .btn-ver-todos button:hover::after {
+    width: 100%;
+}
+.calendario .btn-ver-todos button img{
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+}
+.sobre{
+    background-color: #F2F2F2;
+    padding: 0px 0px 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobre .wave-sobre{
+    width: 100%;
+    transform: rotate(180deg);
+}
+.sobre .title-sobre{
+    width: 303px;
+}
+.sobre p{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    max-width: 964px;
+    margin: 24px 0px 40px 0px;
+}
+.sobre .btn-conheca button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #000000;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    cursor: pointer;
+    width: 211px;
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 63px;
+}
+.sobre .btn-conheca button::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background-color: #F28025;
+    transition: width 0.5s ease-in-out;
+    z-index: -1;
+}
+.sobre .btn-conheca button:hover::after {
+    width: 100%;
+}
+.sobre .btn-conheca button img{
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+}
+@media (max-width: 768px) {
+    .inicio{
+        background-position: 75% center;
+    }
+    .inicio .title-runSports h1 {
+        margin: 24px 0px 24px 44px;
+    }
+    .calendario .acompanhe-nosso {
+        margin-top: 52px;
+        width: 100%;
+        height: 72px;
+    }
+    .calendario .container-events .cards{
+        margin: 32px 0px 0px 0px;
+    }
+    .sobre p{
+        padding: 16px;
+    }
+}
+  
