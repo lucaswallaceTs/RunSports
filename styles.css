@@ -159,8 +159,13 @@ body{
 .container-events .cards .image-logo .img-zoom{
     width: 120px;
 }
+.calendario .btn-ver-todos a{
+    text-decoration: none;
+}
 .calendario .btn-ver-todos button {
     display: flex;
+    font-weight: 600;
+    font-family: 'Inter';
     align-items: center;
     justify-content: flex-end;
     color: #000000;
@@ -203,6 +208,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1440px;
+    margin: auto;
 }
 .sobre .wave-sobre{
     width: 100%;
@@ -220,8 +227,13 @@ body{
     max-width: 964px;
     margin: 24px 0px 40px 0px;
 }
+.sobre .btn-conheca a{
+    text-decoration: none;
+}
 .sobre .btn-conheca button {
     display: flex;
+    font-family: 'Inter';
+    font-weight: 600;
     align-items: center;
     justify-content: flex-end;
     color: #000000;
@@ -256,6 +268,25 @@ body{
     margin-left: 8px;
     width: 24px;
     height: 24px;
+}
+footer{
+    background-color: #2A2D36;
+    padding: 22px 0px;
+    width: 100%;
+    margin: auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+}
+footer p {
+    margin: 0px;
+    font-family: Inter;
+    font-size: 13px;
+}
+footer p a {
+    color:#0099FF;
+    text-decoration: underline;
 }
 @media (max-width: 768px) {
     .inicio{
