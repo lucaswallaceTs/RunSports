@@ -27,7 +27,6 @@ body{
     background-repeat: no-repeat;
     margin: auto;
     align-items: center;
-
 }
 .inicio .filtro-inicio{
     width: 100%;
@@ -91,7 +90,6 @@ body{
 .calendario h2{
     font-size: 64px;
     font-weight: 400;
-    line-height: 96.34px;
     font-family: "Anton", serif;
     text-transform: uppercase;
     margin: 16px 0px;
@@ -111,6 +109,9 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+.calendario .container-events a{
+    text-decoration: none;
 }
 .calendario .container-events .cards{
     width: 300px;
@@ -261,7 +262,15 @@ body{
         background-position: 75% center;
     }
     .inicio .title-runSports h1 {
-        margin: 24px 0px 24px 44px;
+        margin: 24px 24px 24px 44px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .calendario h2 {
+        font-size: 38px;
+    }
+    .calendario p {
+        font-size: 18px;
     }
     .calendario .acompanhe-nosso {
         margin-top: 52px;
