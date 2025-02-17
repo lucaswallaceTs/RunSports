@@ -239,18 +239,37 @@
     </section>
     <section id="Sobre" class="sobre">
         <img class="wave-sobre" src="./imagens/white_wave.png" alt="">
-        <img class="title-sobre" src="./imagens/sobre-empresa.svg" alt="">
-        <p>Organizadora de eventos esportivos com foco em corridas de rua e figura-se entre os principais nomes na região sul do país, organizando eventos e provas de nível nacional e internacional.</p>
-        <div class="btn-conheca">
-            <a href="https://www.runsports.com.br/" target="_blank">
-                <button>CONHEÇA A EMPRESA
-                    <img src="./imagens/arrow-black.svg" alt="">
-                </button>
-            </a>
+        <img class="title-sobre-desktop" src="./imagens/Fale-Conosco.svg" alt="">
+        <div class="contact">
+            <div class="wrapper-text">
+                <img class="title-sobre" src="./imagens/sobre-empresa.svg" alt="">
+                <p>Organizadora de eventos esportivos com foco em corridas de rua e figura-se entre os principais nomes na região sul do país, organizando eventos e provas de nível nacional e internacional.</p>
+            </div>
+            <div class="wrapper-form">
+                <img class="title-sobre-mobile" src="./imagens/Fale-Conosco.svg" alt="">
+                <form id="form-fale-conosco">
+                    <label for="">NOME*</label>
+                    <input type="text" id="name" name="nome" />
+                    <label for="">E-MAIL*</label>
+                    <input type="email" id="email" name="email" />
+                    <label for="">TELEFONE*</label>
+                    <input type="tel" id="phone" name="phone" />
+                    <label for="">MENSAGEM*</label>
+                    <input type="text" id="message" class="message" name="message" />
+                    <div class="btn-conheca">
+                        <button id="submit-fale-conosco">
+                            ENVIAR MENSAGEM
+                            <img src="./imagens/arrow-black.svg" alt="">
+                        </button>
+                    </div>
+
+                </form>
+            </div>
         </div>
     </section>
     <footer>
-        <p>© 2025 - TICKET AGORA SERVICOS DE RESERVAS, INTERMEDIAÇÃO E AGENCIAMENTO LTDA. <a href="https://www.ticketsports.com.br/" target="_blank">VISITE NOSSO SITE</a></p>
+        <p class="footer-desktop">© 2025 - TICKET AGORA SERVICOS DE RESERVAS, INTERMEDIAÇÃO E AGENCIAMENTO LTDA. <a href="https://www.ticketsports.com.br/" target="_blank">VISITE NOSSO SITE</a></p>
+        <p class="footer-mobile">© 2025 - TICKET AGORA SERVICOS DE RESERVAS, INTERMEDIAÇÃO E AGENCIAMENTO LTDA. <br><a href="https://www.ticketsports.com.br/" target="_blank">VISITE NOSSO SITE</a></p>
     </footer>
 </body>
 </html>
