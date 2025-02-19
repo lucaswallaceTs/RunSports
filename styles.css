@@ -134,6 +134,10 @@ body{
     color: #2A2D36;
     margin: 16px 24px;
     text-align: left;
+    height: 73px;
+    display: flex;
+    align-items: flex-end;
+    
 }
 .container-events .cards .info-event p{
     font-family: Inter;
@@ -281,6 +285,8 @@ body{
     display: flex;
     margin-top: 32px;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 .sobre .wrapper-text{
     width: calc(50% - 32px);
@@ -363,15 +369,11 @@ footer p a {
     }
     .sobre p{
         padding: 16px;
+        margin: 0;
     }
     .sobre .title-sobre-desktop{
         width: 303px;
-        display: none;
-    }
-    .sobre .title-sobre-mobile{
-        width: 303px;
         display: block;
-        margin: auto auto 32px auto;
     }
     .sobre .contact{
         flex-direction: column;
