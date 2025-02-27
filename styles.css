@@ -8,6 +8,18 @@
 .card-gray{background-color: #786d60d9;}
 .card-pink{background-color: #f17ea1;}
 .card-yellow{background-color: #e6bb00;}
+
+.btn-black{
+    background-color: #2A2D36;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+}
+.btn-embreve{
+    background-color: transparent;
+    border: 1px dashed #2A2D36A3;
+    color: #2A2D3666;
+}
 body{
     width: 100%;
     background-color: #FFF;
@@ -110,18 +122,28 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
-.calendario .container-events a{
-    text-decoration: none;
-}
 .calendario .container-events .cards{
     width: 300px;
-    height: 400px;
+    height: 478px;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 32px 32px 0px 0px;
+    align-items: center;
+}
+.calendario .container-events .cards a{
+    text-decoration: none;
+}
+.calendario .container-events .cards button{
+    width: 220px;
+    height: 64px;
+    border-radius: 8px;
+    font-family: "Anton", serif;
+    font-size: 20px;
+    font-weight: 400;
+
 }
 .container-events .cards .wave-card img{
     width: 100%;
@@ -132,30 +154,50 @@ body{
     font-size: 32px;
     line-height: 36.34px;
     color: #2A2D36;
-    margin: 16px 24px;
-    text-align: left;
+    margin: 0px 24px 16px 24px;
+    text-align: center;
     height: 73px;
     display: flex;
     align-items: flex-end;
-    
+    justify-content: center;
+}
+.container-events .cards .info-event h3{
+    font-family: "Anton", serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 36.34px;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-transform: uppercase;
 }
 .container-events .cards .info-event p{
     font-family: Inter;
     font-size: 14px;
     line-height: 36.34px;
     color: #2A2D36;
-    margin: 0px 24px;
+    margin: 0px 0px 22px 0px;
     text-align: left;
+    display: flex;
+    justify-content: center;
+}
+.container-events .cards .logo-event{
+    display: flex;
+    justify-content: center;
 }
 .container-events .cards .image-logo{
     background-color: #2A2D3620;
     width: calc(120px - 32px);
     height: calc(120px - 42px);
     padding: 21px 16px;
-    margin: 10px;
+    margin: 32px 10px 32px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 16px;
 }
 .container-events .cards .image-logo img{
     width: 100%;
